@@ -17,13 +17,20 @@ li {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    color: #141C3A;
+  }
+  .heading{
+    padding: 30px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 35px;
   }
 
 .navbar {
     background-color :#21918D;
     display: flex;
     justify-content: flex-end;
-    padding: 20px 40px 20px;
+    padding: 20px 40px 15px;
 
 }
   .nav-link {
@@ -32,5 +39,16 @@ li {
     line-height: 1rem;
     font-weight: 700;
     font-size: 0.85rem;
-    margin: 1em;
+    margin: 0.8em;
+}
+
+.aproposdemoi {
+  height: 100%;
+  padding: 0;
+}
+
+.aproposdemoi  .container {
+  padding: 3em 0;
+  display: flex;
+  width: 80%;
 }
