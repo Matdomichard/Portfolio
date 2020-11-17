@@ -52,14 +52,17 @@ li {
   width: 50%;
 }
 
-.aproposdemoi {
-  background-color: #21918D;
-  color: white;
+.sectionsize {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 100px 20px 100px 20px;
+}
+
+.greenbackground{
+  background-color: #21918D;
+  color: white;
 }
 
 .item {
@@ -82,4 +85,27 @@ li {
 
 .btn:hover {
   background-color:#267572;
+}
+
+.footeritems{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  color: #267572;
+}
+
+.footericons{
+  display: flex;
+  justify-content: center
+}
+
+under-text {
+  margin: 0.5em 0;
+  font-weight: 600;
 }
