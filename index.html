@@ -10,29 +10,45 @@
 
 <body>
 <header>
-<!-- Navbar start -->
+
 <nav class="navbar">
     <ul>
-        <li><a class="nav-link">A propos de moi</a></li>
-        <li><a class="nav-link">Compétences</a></li>
-        <li><a class="nav-link">Projets</a></li>
-        <li><a class="nav-link">Contact</a></li>
+        <li><a class="nav-link" href="#aboutme">A propos de moi</a></li>
+        <li><a class="nav-link" href="#skills">Compétences</a></li>
+        <li><a class="nav-link" href="#projects">Projets</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
  </nav>
-<!-- Navbar end -->
 
 </header>
 <div>
     <p>
         <h1 class="heading">Bonjour, je m’appelle Mathieu, <br>
-            j'aime <span style="color:#FD3C40">Coder</span></h1> 
+            j'aime  <span style="color:#FD3C40" class="carousel">
+                <div class="changeHidden">
+
+                    <div class="contenant">
+                        <div class="element">coder</div>
+                        <div class="element">créer</div>
+                        <div class="element">apprendre</div>
+                        <div class="element">échanger</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </span></h1> 
+
     </p>
     <img 
 src="https://res.cloudinary.com/dyx38qkbh/image/upload/c_scale,w_282/v1604174023/placeholder_e78k4m.png"
 alt="Illustration"
 class="center">
 </div>
-<section class = "sectionsize greenbackground">
+<section class = "sectionsize greenbackground" id="aboutme">
     <div>
     <div class='item'>
     <img 
@@ -46,31 +62,33 @@ class="center">
 
     <div class='item'>
      <p>
-        En tant que développeur fullstack junior, j’apprécie de participer à toutes les étapes d’un projet.
-        Avant ma reconversion, j’étais conseiller de carrière.  Cette expérience m’a appris à écouter et à rechercher des solutions afin de résoudre des problèmes complexes. <br>
-        J’applique la méthode agile en restant centré sur le besoin utilisateur durant tout le développement. <br>
-        Réact me permet de créer des outils amenés à grandir.   
+        En tant que développeur junior, j’aimerai participer à toutes les étapes d’un projet.
+        Avant ma reconversion, j’étais conseiller de carrière.  Cette expérience m’a appris à écouter et à rechercher des solutions afin de résoudre des problèmes complexes. <br> 
+        <br>
+        J'apprends vite et j'ai très envie de progresser.
+        Mon objectif est d'un jour créer des outils qui deviendraient essentiels pour leurs utilisateurs.
      </p>
     </div>
     </section >
 
 
-
-
-</body>
-<footer class="sectionsize item footeritems">
+<section class="sectionsize item contactitems" id="contact">
     <div>
-        <a><i class="fa fa-map-marker fa-3x footericons" aria-hidden="true"></i></a>
+        <a><i class="fa fa-map-marker fa-3x contacticons" aria-hidden="true"></i></a>
         <p class="under-text">Paris</p>
       </div>
      <div>  
-        <a><i href="mailto: mathieu.domichard@gmail.com" class="fa fa-envelope-o fa-3x footericons"></i></a>
+        <a><i href="mailto:mathieu.domichard@gmail.com" class="fa fa-envelope-o fa-3x contacticons"></i></a>
         <p class="under-text">mathieu.domichard@gmail.com</p>
     </div>
      <div>
-            <i class="fa fa-mobile fa-3x"></i>
+            <i class="fa fa-mobile fa-3x contacticons"></i>
             <p class="under-text">06.45.30.57.62</p>
      </div>
-      
-</footer>
+    </section>
+
+    <footer>
+    <small class="footer">Codé par Mathieu Domichard en 2020</small>
+    </footer>
+</body>
 </html>
