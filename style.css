@@ -3,6 +3,12 @@
     padding: 0;
   }
 
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 li {
     list-style-type: none;
     display: inline;
@@ -44,7 +50,24 @@ li {
     font-size: 0.85rem;
     margin: 0.8em;
     text-decoration: none;
-}
+
+  }
+
+
+  a.effect-box:after,
+  a.effect-box:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    
+  }
 
 
 .carousel {
