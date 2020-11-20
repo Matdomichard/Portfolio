@@ -1,13 +1,13 @@
+:root{
+  box-sizing: border-box;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: inherit;
   }
 
-  *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 li {
     list-style-type: none;
@@ -43,6 +43,7 @@ li {
 
 }
   .nav-link {
+    display: inline;
     color: white;
     text-transform: uppercase;
     line-height: 1rem;
@@ -53,6 +54,7 @@ li {
 
   }
 
+  /* header text animation start here */
 
   a.effect-box:after,
   a.effect-box:before {
@@ -124,6 +126,8 @@ li {
       transform: translateY(-180px);
   }
 }
+
+ /* header text animation stops here */
 
 .center {
   display: block;
