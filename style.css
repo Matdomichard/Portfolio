@@ -8,11 +8,6 @@
     box-sizing: inherit;
   }
 
-
-li {
-    list-style-type: none;
-    display: inline;
-  }
  
   html {
     scroll-behavior: smooth;
@@ -35,15 +30,22 @@ li {
   }
 
 
-.navbar {
+#navbar {
     background-color :#21918D;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px 40px 15px;
+    padding: 0px 20px 20px 15px;
 
 }
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+#navbar a {
+  display: block;
+}
   .nav-link {
-    display: inline;
     color: white;
     text-transform: uppercase;
     line-height: 1rem;
@@ -51,7 +53,14 @@ li {
     font-size: 0.85em;
     margin: 0.8em;
     text-decoration: none;
+  }
 
+  #menuToggle {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
   }
 
   /* header text animation start here */
@@ -200,4 +209,28 @@ footer {
   color: #dcdeee;
   text-align: center;
   padding: 0.5em;
+}
+
+@media screen and (min-width=768px){
+  
+  #menuToggle {
+    display: none;
+  }
+
+  #navbar {
+    background-color: transparent;
+    display: block !important;
+  }
+
+  #navbar li {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width=1024px){
+
+}
+
+@media screen and (min-width=1200px){
+
 }
