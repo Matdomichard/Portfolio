@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    $('#menuToggle').click(function(){
-        $('#mainNav').stop(true, true).slideToggle()
-    })
-})
+<script type="text/javascript">
+  // Mon code Javascript
+  ...
+</script>

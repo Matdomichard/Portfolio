@@ -11,14 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
 
 <body>
 <header>
 
-<nav id="navbar">
-    <button id="menuToggle"><img src="./assets/images/layout/hamburger.svg" alt="Ouvrir / Fermer le menu" /></button>
+<nav id="navbar" role="navigation">
     <ul>
         <li><a class="nav-link " href="#aboutme">A propos de moi</a></li>
         <li><a class="nav-link" href="#skills">Compétences</a></li>
@@ -29,9 +28,8 @@
 
 </header>
     <div>
-    <p>
-        <h1 class="heading">Bonjour, je m’appelle Mathieu, <br>
-            j'aime  <span style="color:#FD3C40" class="carousel">
+        <h1 class="heading">Bonjour, je m’appelle Mathieu. J'aime  
+            <span style="color:#FD3C40" class="carousel">
                 <div class="changeHidden">
                     <div class="contenant">
                         <div class="element">coder</div>
@@ -42,28 +40,27 @@
                 </div>
                 </span>
         </h1> 
-    </p>
     </div>
 
+    <figure>
+    <img class="imgsize"
+src="https://blush.design/api/download?shareUri=Hs9QFJvP6&s=0%7E915B3C&w=800&h=800&fm=png"
+alt="Illustration of Mathieu sitting at his desk">
+</figure>
 
-    <img 
-src="https://res.cloudinary.com/dyx38qkbh/image/upload/c_scale,w_282/v1604174023/placeholder_e78k4m.png"
-alt="Illustration"
-class="center">
-</div>
-<section class = "sectionsize greenbackground" id="aboutme">
+<section class = "greenbackground" id="aboutme">
     <div>
-    <div class='item'>
-    <img 
+        <div class='item'>
+        <img 
      src="https://res.cloudinary.com/dyx38qkbh/image/upload/c_scale,q_auto,w_272/v1604096375/portraitrond_myy3y2.png"
      alt="Portrait de Mathieu Domichard">
-    </div>
-    <div class="cv-btn">
+        </div>
+        <div class="cv-btn">
         <a href="./assets/documents/Mathieu_Domichard_CV.pdf"  style="text-decoration:none" target="_blank" class="btn" ><span> Telechargez mon CV <i class="fa fa-download" ></i><span></a>
+        </div>
     </div>
-</div>
 
-    <div class='item'>
+    <div class='bio'>
      <p>
         En tant que développeur junior, j’aimerai participer à toutes les étapes d’un projet.
         Avant ma reconversion, j’étais conseiller de carrière.  Cette expérience m’a appris à écouter et à rechercher des solutions afin de résoudre des problèmes complexes. <br> 
