@@ -157,8 +157,7 @@ body {
   flex: 1 1 auto;
   justify-content:space-between;
   align-items: center;
-  overflow: auto;
-  padding: 30px;
+  padding: 40px;
 }
 
 
@@ -217,15 +216,15 @@ footer {
   padding: 0.5em;
 }
 /* responsive for smartphone */
-@media screen and (min-width=576px){
-  .aboutmesection {
+@media screen and (min-width=360px){
+  #aboutme {
    flex-wrap: wrap;
   }
  
 }
 
 /* responsive for tablet and small computer */
-@media screen and (min-width=568px){
+@media screen and (min-width=601px){
 
   #aboutme {
     flex-wrap: wrap;
@@ -234,6 +233,6 @@ footer {
 }
 
 /* responsive for large desktop */
-@media screen and (min-width=1200px){
+@media screen and (min-width=1024px){
 
 }
