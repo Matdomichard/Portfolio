@@ -163,9 +163,6 @@ body {
   padding: 40px;
 }
 
-.pictureandbutton {
-  display: flex;
-}
 
 
 .btn {
@@ -206,9 +203,15 @@ body {
   
 }
 
-
 .contacticons{
   text-align: center;
+}
+
+.centeredicons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
 }
 
 under-text {
