@@ -56,13 +56,10 @@ body {
     text-decoration: none;
   }
 
-  #menuToggle {
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    color: white;
+.nav-link-toggle{
+    display: none;
   }
+
 
   /* header text animation start here */
 
@@ -241,10 +238,21 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     }
-  
 
   .nav-link {
     justify-content: flex-end;
+    }
+
+  .nav-link-toggle{
+      color: white;
+      display: initial;
+      cursor: pointer;
+    }
+
+    .nav-link-toggle i{
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 10px;
     }
 
   .aboutmeclass {
