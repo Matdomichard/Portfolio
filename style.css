@@ -31,7 +31,6 @@ body {
 
 #navbar {
     background-color :#21918D;
-    padding: 0px 20px 20px 15px;
   }
 
 #navbar ul {
@@ -153,22 +152,17 @@ body {
 }
 
 #aboutme{
+  color: white;
+  background-color: #21918D;
   display: flex;
   flex: 1 1 auto;
-  justify-content:space-between;
-  align-items: center;
   padding: 40px;
 }
 
-
-.bio {
-  overflow: auto;
-  justify-content: center;
-  flex: 2 1 auto;
-  min-width: 150px;
-  
-  
+.pictureandbutton {
+  display: flex;
 }
+
 
 .btn {
   background-color: #21918D;
@@ -188,7 +182,16 @@ body {
   background-color:#267572;
 }
 
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .contactitems{
+  display: flex;
+  justify-content: space-around;
   font-size: 16px;
   font-weight: 900;
   line-height: 24px;
@@ -196,7 +199,9 @@ body {
   padding-right: 15px;
   position: relative;
   color: #267572;
+  
 }
+
 
 .contacticons{
   text-align: center;
@@ -215,24 +220,26 @@ footer {
   text-align: center;
   padding: 0.5em;
 }
-/* responsive for smartphone */
-@media screen and (min-width=360px){
-  #aboutme {
-   flex-wrap: wrap;
-  }
- 
-}
+
 
 /* responsive for tablet and small computer */
-@media screen and (min-width=601px){
+@media screen and (max-width: 601px){
 
   #aboutme {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
-  
+  .contactitems{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+  .bio {
+    padding-top: 50px;
+  }
 }
 
 /* responsive for large desktop */
-@media screen and (min-width=1024px){
+@media screen and (min-width: 1024px){
 
 }
