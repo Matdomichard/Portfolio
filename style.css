@@ -52,7 +52,7 @@ body {
   line-height: 1rem;
   font-weight: 700;
     font-size: 0.85em;
-    margin: 0.8em;
+    margin: 1.5em;
     text-decoration: none;
   }
 
@@ -234,16 +234,17 @@ footer {
 
   #navbar a {
     display: flex;
+    margin: 0.35em;
   }
 
   #navbar ul{
-      flex-direction: column;
-      justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     }
   
+
   .nav-link {
     justify-content: flex-end;
-    line-height: 0px;
     }
 
   .aboutmeclass {
