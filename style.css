@@ -34,7 +34,6 @@ body {
 
 #navbar {
     background-color :#21918D;
-    
   }
 
 #navbar ul {
@@ -155,10 +154,12 @@ body {
   color: white;
 }
 
-#aboutme{
+
+.aboutmeclass{
   color: white;
   background-color: #21918D;
   display: flex;
+  flex-direction: row;
   flex: 1 1 auto;
   padding: 40px;
 }
@@ -185,7 +186,6 @@ body {
 
 .bio {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -232,15 +232,29 @@ footer {
 /* responsive for tablet and small computer */
 @media screen and (max-width: 601px){
 
-  #aboutme {
+  #navbar a {
+    display: flex;
+  }
+
+  #navbar ul{
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  
+  .nav-link {
+    justify-content: flex-end;
+    line-height: 0px;
+    }
+
+  .aboutmeclass {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .contactitems{
     flex-direction: column;
     justify-content: space-between;
 }
-
   .bio {
     padding-top: 50px;
   }
