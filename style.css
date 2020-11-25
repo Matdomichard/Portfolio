@@ -56,10 +56,14 @@ body {
     text-decoration: none;
   }
 
-.nav-link-toggle{
+  .nav-link-toggle{
     display: none;
   }
 
+  .navbar__items {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   /* header text animation start here */
 
@@ -229,6 +233,10 @@ footer {
 /* responsive for tablet and small computer */
 @media screen and (max-width: 601px){
 
+ /* .navbar_items {
+    display:none;
+  }
+ */ 
   #navbar a {
     display: flex;
     margin: 0.35em;
@@ -243,17 +251,15 @@ footer {
     justify-content: flex-end;
     }
 
-  .nav-link-toggle{
+    .nav-link-toggle{
       color: white;
       display: initial;
       cursor: pointer;
-    }
-
-    .nav-link-toggle i{
       display: flex;
       justify-content: flex-end;
       padding-right: 10px;
     }
+    
 
   .aboutmeclass {
     flex-wrap: wrap;
