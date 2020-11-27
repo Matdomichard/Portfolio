@@ -7,11 +7,9 @@
   padding: 0;
   }
 
-html {
-  scroll-behavior: smooth;
-  }
 
-body {
+html, body {
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -19,6 +17,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #141C3A; 
+    overflow-x: hidden; 
   }
  
 .heading{
