@@ -26,8 +26,15 @@ html, body {
     font-size: 2.18em;
     padding-top:  1em ;
     overflow: hidden;
+    
   }
 
+  @media only screen and (min-width: 910px) {
+    .heading {
+      padding-top: 3em;
+      padding-bottom: 1em;
+    }
+  }
 
 #navbar {
     background-color :#21918D;
@@ -137,6 +144,12 @@ html, body {
   min-width: 20em;
 }
 
+@media only screen and (min-width: 910px) {
+  .imgsize  {
+    padding-bottom: 1em;
+  }
+}
+
 .sectionsize {
   display: flex;
   justify-content: space-between;
@@ -222,11 +235,11 @@ under-text {
   display: grid;
   position: absolute;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0rem;
+  grid-gap: 6rem;
   width: 90%;
   top: -200px;
   right: 7.5%;
-  background: white;
+
 }
 
 @media only screen and (max-width: 910px) {
@@ -263,9 +276,12 @@ under-text {
   color: #5C63AB;
   text-align: center;
 }
-.learn-card-1 {
+.learn-card-1, .learn-card-2, .learn-card-3 {
   border-top-left-radius: 12px;
-}
+  background-color: white;
+  }
+
+
 @media only screen and (max-width: 630px) {
   .learn-card-1 {
     border-top-right-radius: 12px;
@@ -300,7 +316,7 @@ under-text {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 300px;
+  margin-top: 340px;
 }
 
 .projects .projectheader{
@@ -341,6 +357,7 @@ under-text {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   padding: 80px 40px;
+  margin-bottom: 60px;
 }
 @media only screen and (max-width: 910px) {
   .projects-cards {
@@ -468,11 +485,13 @@ footer {
   .aboutmeclass {
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
 
   .contactitems{
     flex-direction: column;
     justify-content: space-between;
+  
 }
   .bio {
     padding-top: 50px;
