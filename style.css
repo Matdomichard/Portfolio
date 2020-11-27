@@ -11,7 +11,6 @@ html {
   scroll-behavior: smooth;
   }
 
-
 body {
   height: 100%;
   width: 100%;
@@ -19,8 +18,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #141C3A;
-    
+    color: #141C3A; 
   }
  
 .heading{
@@ -100,18 +98,15 @@ body {
   overflow: hidden;
 }
 
-
 .carousel .changeHidden .contenant {
   position: relative;
   animation: carousel 8s ease-in-out infinite;
 }
 
-
 .carousel .changeHidden .element {
   display: block;
   font-weight: 700;
 }
-
 
 @keyframes carousel {
   0%, 20% {
@@ -132,6 +127,7 @@ body {
 }
 
  /* header text animation stops here */
+/* about me section start here*/
 
  .imgsize {
   display: block;
@@ -141,7 +137,6 @@ body {
   width: 35%;
   min-width: 20em;
 }
-
 
 .sectionsize {
   display: flex;
@@ -155,7 +150,6 @@ body {
   color: white;
 }
 
-
 .aboutmeclass{background-color: #21918D;
   color: white;
   
@@ -164,8 +158,6 @@ body {
   flex: 1 1 auto;
   padding: 40px;
 }
-
-
 
 .btn {
   background-color: #21918D;
@@ -219,8 +211,60 @@ under-text {
   margin: 0.5em 0;
   font-weight: 600;
 }
+ /* about me section end here*/
+ /* skills section start here*/
 
-
+.learn-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--white-color);
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+    0 0 0 1px var(--border-color);
+  color: var(--black-color);
+  display: block;
+  padding: 5rem 1.5rem;
+  border: 1px solid var(--border-color);
+}
+@media only screen and (max-width: 360px) {
+  .learn-card {
+    padding: 4px 0.75rem;
+  }
+}
+.learn-card-icon {
+  color: var(--primary-color);
+  text-align: center;
+}
+.learn-card-1 {
+  border-top-left-radius: 12px;
+}
+@media only screen and (max-width: 630px) {
+  .learn-card-1 {
+    border-top-right-radius: 12px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .learn-card-2 {
+    border-top-right-radius: 12px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .learn-card-2 {
+    border-top-right-radius: 0px;
+  }
+}
+.learn-card-3 {
+  border-top-right-radius: 12px;
+}
+@media only screen and (max-width: 910px) {
+  .learn-card-3 {
+    border-top-right-radius: 0px;
+  }
+}
+ /* skills section end here*/
+ /* Project section title  here*/
 .projectsSection{
   background-color: #21918D;
 }
@@ -360,8 +404,7 @@ h2:before, h2:after {
   opacity: 1;
 }
 
-
-/* project section stops here */
+/* project section end here */
 
 
 footer {

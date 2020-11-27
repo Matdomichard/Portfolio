@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcc530c977.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
 </head>
@@ -17,7 +17,7 @@
 <body>
 <header id="navbar">
     <div class="nav-link-toggle">
-        <i class="fa fa-bars fa-2x"></i>
+        <i class="fas fa-bars fa-2x"></i>
       </div>
     <div class="navbar_items">
         <nav  role="navigation">
@@ -52,6 +52,8 @@ src="https://blush.design/api/download?shareUri=Hs9QFJvP6&s=0%7E915B3C&w=800&h=8
 alt="Illustration of Mathieu sitting at his desk">
 </figure>
 
+<!-- START ABOUT ME SECTION -->
+
 <section id="aboutme" class="aboutmeclass">
     <div>
         <div class='item'>
@@ -60,7 +62,7 @@ alt="Illustration of Mathieu sitting at his desk">
      alt="Portrait de Mathieu Domichard">
         </div>
         <div class="cv-btn">
-        <a href="./assets/documents/Mathieu_Domichard_CV.pdf"  style="text-decoration:none" target="_blank" class="btn" ><span> Telechargez mon CV <i class="fa fa-download" ></i><span></a>
+        <a href="./assets/documents/Mathieu_Domichard_CV.pdf"  style="text-decoration:none" target="_blank" class="btn" ><span> Telechargez mon CV <i class="fas fa-file-download" ></i><span></a>
         </div>
     </div>
 
@@ -74,29 +76,57 @@ alt="Illustration of Mathieu sitting at his desk">
      </p>
     </div>
     </section >
-
-
-<section class="sectionsize item contactitems" id="contact">
-    <div class="centeredicons">
-        <div><a><i class="fa fa-map-marker fa-3x contacticons" aria-hidden="true"></i></a></div>
-        <div><p class="under-text">Paris</p></div>
-      </div>
-     <div class="centeredicons" >  
-        <div><a><i href="mailto:mathieu.domichard@gmail.com" class="fa fa-envelope-o fa-3x contacticons"></i></a></div>
-        <div><p class="under-text">mathieu.domichard@gmail.com</p></div>
-    </div>
-     <div class="centeredicons">
-         <div><i class="fa fa-mobile fa-3x contacticons"></i></div>
-        <div><p class="under-text">06.45.30.57.62</p></div>
-     </div>
-    </section>
-
+    <!-- END ABOUT ME SECTION -->
+    <section class="learn">
+      <div class="learn-cards">
+        <div class="learn-card learn-card-1">
+          <div class="learn-card-icon">
+            <i class="fab fa-html5 fa-7x"></i>
+          </div>
+          <div class="learn-card-heading">
+            <h2>HTML</h2>
+          </div>
+          <div class="learn-card-content">
+            <p>
+              HTML was my introduction into coding and understanding it fairly
+              quickly gave me the confidence to learn more.
+            </p>
+          </div>
+        </div>
+        <div class="learn-card learn-card-2">
+          <div class="learn-card-icon">
+            <i class="fab fa-css3 fa-7x"></i>
+          </div>
+          <div class="learn-card-heading">
+            <h2>CSS</h2>
+          </div>
+          <div class="learn-card-content">
+            <p>
+              CSS went from being my weakest to my strongest language with a
+              lot of practice, I now take a lot of pride in the aesthetics of
+              my websites and UI's.
+            </p>
+          </div>
+        </div>
+        <div class="learn-card learn-card-3">
+          <div class="learn-card-icon">
+            <i class="fab fa-js fa-7x"></i>
+          </div>
+          <div class="learn-card-heading">
+            <h2>JavaScript</h2>
+          </div>
+          <div class="learn-card-content">
+            <p>
+              Js is definitely the language I've spent the most time on and
+              the more I learn the more I realise there is to learn and I look
+              forward to the ongoing journey of improving.
+            </p>
+          </div>
+        </div>
     <!-- START PROJECTS SECTION -->
     <section id="projects" class="projectsSection">
         <h2>Quelques-uns de mes projets</h2>
-      
-
-               <!-- project 1 -->
+    
               <div class="projects-cards">
                 <div class="projects-card">
                   <img
@@ -160,9 +190,24 @@ alt="Illustration of Mathieu sitting at his desk">
               </div>
 
     </section>
-
-
     <!-- END PROJECTS SECTION -->
+     <!-- START CONTACT SECTION -->
+<section class="sectionsize item contactitems" id="contact">
+  <div class="centeredicons">
+      <div><a><i class="fas fa-map-marker-alt fa-3x contacticons" aria-hidden="true"></i></a></div>
+      <div><p class="under-text">Paris</p></div>
+    </div>
+   <div class="centeredicons" >  
+      <div><a><i href="mailto:mathieu.domichard@gmail.com" class="fas fa-envelope fa-3x contacticons"></i></a></div>
+      <div><p class="under-text">mathieu.domichard@gmail.com</p></div>
+  </div>
+   <div class="centeredicons">
+       <div><i class="fas fa-mobile-alt fa-3x contacticons"></i></div>
+      <div><p class="under-text">06.45.30.57.62</p></div>
+   </div>
+  </section>
+
+     <!-- END CONTACT SECTION -->
 
     <footer>
     <small class="footer">Codé par Mathieu Domichard en 2020</small>
