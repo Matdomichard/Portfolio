@@ -253,6 +253,9 @@ under-text {
   background-color: white;
   }
 
+  .learn-card-3 {
+    border-top-right-radius: 12px;
+  }
  /* skills section end here*/
 
  /* Project section start here*/
@@ -361,99 +364,16 @@ footer {
 
 /* Start of Responsive */
 
-@media only screen and (min-width: 1700px) {
-  .projects-card {
-    height: 350px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .projects-card {
-    height: 200px;
-  }
-}
-@media only screen and (max-width: 630px) {
-  .projects-card {
-    height: 350px;
-  }
-}
-
-@media only screen and (max-width: 910px) {
-  .projects-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (max-width: 630px) {
-  .projects-cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
- 
-@media only screen and (max-width: 910px) {
-  .projects {
-    margin-top: 1090px;
-  }
-}
-@media only screen and (max-width: 630px) {
-  .projects {
-    margin-top: 1000px;
-  }
-}
 @media only screen and (max-width: 360px) {
   .projects {
     margin-top: 1000px;
   }
-}
-
-@media only screen and (max-width: 630px) {
-  .learn-card-1 {
-    border-top-right-radius: 12px;
-  }
-}
-@media only screen and (max-width: 910px) {
-  .learn-card-2 {
-    border-top-right-radius: 12px;
-  }
-}
-@media only screen and (max-width: 630px) {
-  .learn-card-2 {
-    border-top-right-radius: 0px;
-  }
-}
-.learn-card-3 {
-  border-top-right-radius: 12px;
-}
-@media only screen and (max-width: 910px) {
-  .learn-card-3 {
-    border-top-right-radius: 0px;
-  }
-}
-
-@media only screen and (max-width: 360px) {
   .learn-card {
     padding: 4px 0.75rem;
   }
 }
 
-@media only screen and (min-width: 910px) {
-  .imgsize  {
-    padding-bottom: 1em;
-  }
-}
-
-
-@media only screen and (max-width: 910px) {
-  .learn-cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (max-width: 630px) {
-  .learn-cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-
-@media screen and (max-width: 601px){
+@media screen and (max-width: 630px){
 
  /* .navbar_items {
     display:none;
@@ -482,33 +402,75 @@ footer {
       padding-right: 10px;
     }
     
-
   .aboutmeclass {
     flex-wrap: wrap;
     justify-content: space-between;
-    
-  }
+    }
 
   .contactitems{
     flex-direction: column;
     justify-content: space-between;
-  
-}
-  .bio {
-    padding-top: 50px;
-  }
-}
+    }
+    .bio {
+      padding-top: 50px;
+    }
+    .projects-card {
+      height: 350px;
+    }
+    .projects-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .projects {
+      margin-top: 1000px;
+    }
 
-@media only screen and (min-width: 910px) {
+    .learn-card-1 {
+      border-top-right-radius: 12px;
+    }
+    .learn-card-2 {
+      border-top-right-radius: 0px;
+    }
+    .learn-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+
+@media only screen and (max-width: 910px) {
   .heading {
     padding-top: 3em;
     padding-bottom: 1em;
   }
+  .projects-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects {
+    margin-top: 1090px;
+  }
+  .learn-card-2 {
+    border-top-right-radius: 12px;
+  }
+  .learn-card-3 {
+    border-top-right-radius: 0px;
+  }
+  .imgsize  {
+    padding-bottom: 1em;
+  }
+  .learn-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-
-
-@media screen and (max-width: 1024px){
-
+@media only screen and (max-width: 1200px) {
+  .projects-card {
+    height: 200px;
+  }
 }
+
+@media only screen and (min-width: 1700px) {
+  .projects-card {
+    height: 350px;
+  }
+}
+
 /* End of Responsive */
