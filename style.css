@@ -136,6 +136,9 @@ html, body {
   min-width: 20em;
 }
 
+.emaillink, .emaillink:hover
+{   text-decoration: none;
+color: #21918D;}
 
 
 .sectionsize {
