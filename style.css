@@ -183,7 +183,15 @@ color: #21918D;}
   display: flex;
   align-items: center;
 }
-
+ /* about me section end here*/
+/* contact section start here*/
+h5 {
+  display: flex;
+  justify-content: center; 
+  font-size: 1.1rem;
+  color: #267572;
+  font-family: Poppins, sans-serif;
+}
 
 .contactitems{
   display: flex;
@@ -206,13 +214,14 @@ color: #21918D;}
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 under-text {
   margin: 0.5em 0;
   font-weight: 600;
 }
- /* about me section end here*/
+/* contact section end here*/
  /* skills section start here*/
 
  .learn {
