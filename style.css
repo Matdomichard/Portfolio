@@ -282,19 +282,12 @@ under-text {
   margin-top: 340px;
 }
 
-.projects .projectheader{
+.projects .projectheader {
   padding: 80px 0px 20px 0px;
   color: white;
   display: flex;
   justify-content: center; 
   font-family: Poppins, sans-serif;
-}
-
-.projectheader:before, .projectheader:after {
-  content: '';
-  border-bottom: 2px solid white;
-  margin: 0 20px 0 0;
-  flex: 1 0 0px;
 }
 
 
