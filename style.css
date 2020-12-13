@@ -184,93 +184,54 @@ color: #21918D;}
   align-items: center;
 }
  /* about me section end here*/
-/* contact section start here*/
-h5 {
-  display: flex;
-  justify-content: center; 
-  font-size: 1.1rem;
-  color: #267572;
-  font-family: Poppins, sans-serif;
-}
+  /* skills section start here*/
 
-.contactitems{
-  display: flex;
-  justify-content: space-around;
-  font-size: 16px;
-  font-weight: 900;
-  line-height: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  color: #267572;
-}
-
-.contacticons{
-  text-align: center;
-}
-
-.centeredicons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-
-under-text {
-  margin: 0.5em 0;
-  font-weight: 600;
-}
-/* contact section end here*/
- /* skills section start here*/
-
- .learn {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.learn-cards {
-  display: grid;
-  position: absolute;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 6rem;
-  width: 90%;
-  top: -200px;
-  right: 7.5%;
-
-}
-
-
-.learn-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
-    0 0 0 1px #5C63AB;
-  display: block;
-  padding: 5rem 1.5rem;
-  border: 1px solid #5C63AB;
-}
-
-
-.learn-card-icon {
-  color: #5C63AB;
-  text-align: center;
-}
-.learn-card-1, .learn-card-2, .learn-card-3 {
-  border-top-left-radius: 12px;
-  background-color: white;
+  .learn {
+    width: 100%;
+    height: auto;
+    position: relative;
   }
-
-  .learn-card-3 {
-    border-top-right-radius: 12px;
+  
+  .learn-cards {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6rem;
+    width: 90%;
+    top: -200px;
+    right: 7.5%;
+  
   }
- /* skills section end here*/
-
- /* Project section start here*/
+  
+  
+  .learn-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+      0 0 0 1px #5C63AB;
+    display: block;
+    padding: 5rem 1.5rem;
+    border: 1px solid #5C63AB;
+  }
+  
+  
+  .learn-card-icon {
+    color: #5C63AB;
+    text-align: center;
+  }
+  .learn-card-1, .learn-card-2, .learn-card-3 {
+    border-top-left-radius: 12px;
+    background-color: white;
+    }
+  
+    .learn-card-3 {
+      border-top-right-radius: 12px;
+    }
+   /* skills section end here*/
+   /* Project section start here*/
 
  .projects {
   background-color: #21918D;
@@ -355,6 +316,47 @@ under-text {
 }
 
 /* project section end here */
+/* contact section start here*/
+h5 {
+  display: flex;
+  justify-content: center; 
+  font-size: 1.1rem;
+  color: #267572;
+  font-family: Poppins, sans-serif;
+}
+
+.contactitems{
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  color: #267572;
+}
+
+.contacticons{
+  text-align: center;
+}
+
+.centeredicons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+under-text {
+  margin: 0.5em 0;
+  font-weight: 600;
+}
+/* contact section end here*/
+
+
+ 
 
 
 footer {
